@@ -32,9 +32,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "Cosmosity"
-admin.site.site_title = "Cosmosity Admin Portal"
-admin.site.index_title = "Cosmosity Admin"
+admin.site.site_header = "Cosmos"
+admin.site.site_title = "Cosmos Admin Portal"
+admin.site.index_title = "Cosmos Admin"
 
 # swagger
 api_info = openapi.Info(
